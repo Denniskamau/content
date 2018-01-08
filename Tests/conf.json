@@ -155,11 +155,15 @@
             "playbookID": "LanguageDetect-Test"
         },
         {
-            "playbookID": "TestParseCSV"
+            "playbookID": "TestWordFileToIOC"
         },
         {
             "integrations": "ArcSight Logger",
             "playbookID": "ArcSight Logger test"
+        },
+        {
+            "integrations": "Forcepoint",
+            "playbookID": "forcepoint test"
         }
     ],
     "skipped": [
@@ -175,6 +179,14 @@
         {
             "integrations": "Symantec MSS",
             "playbookID": "SymantecMSSTest"
+        },
+        {
+            "integrations": "Joe Security",
+            "playbookID": "JoeSecurityTestPlaybook",
+            "timeout": 500
+        },
+        {
+            "playbookID": "TestParseCSV"
         }
     ]
 }
